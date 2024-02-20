@@ -95,7 +95,7 @@ export default function Hero() {
         </div>
       </div>
       <section className="container mx-auto px-2 xl:pt-16 pb-24">
-        <div className="flex flex-wrap items-center justify-evenly py-16 gap-y-8">
+        <div className="flex flex-wrap items-center lg:justify-evenly justify-between py-16 gap-y-8">
           <Reviews image="/trustpilot.svg" rating="4.5" review="1597" />
           <Reviews image="/facebook_logo.png" rating="5" review="3791" />
           <Reviews image="/hajj_logo.png" rating="4.5" review="2487" />
