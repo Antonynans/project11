@@ -4,7 +4,7 @@ import { MdLocationPin } from "react-icons/md";
 export default function Footer() {
   return (
     <footer className="bg-background py-20">
-      <div className="container mx-auto px-2">
+      <div className="container mx-auto px-6">
         <h2 className="lg:text-5xl text-white text-center font-semibold">
           Subscribe for Newsletter
         </h2>
@@ -21,7 +21,7 @@ export default function Footer() {
             Subscribe
           </button>
         </div>
-        <section className="lg:flex lg:pl-12 pt-16">
+        <section className="lg:flex pt-16">
           <div className="flex flex-col justify-between">
             <div className="flex items-center gap-x-2">
               <img src="/logo.png" alt="image logo" className="w-12" />

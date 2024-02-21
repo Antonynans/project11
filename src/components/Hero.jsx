@@ -94,8 +94,8 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <section className="container mx-auto px-2 xl:pt-16 pb-24">
-        <div className="flex flex-wrap items-center lg:justify-evenly justify-between py-16 gap-y-8">
+      <section className="container mx-auto px-6 xl:pt-16 pb-24">
+        <div className="flex flex-wrap items-center lg:justify-evenly justify-center py-16 gap-y-8 gap-12">
           <Reviews image="/trustpilot.svg" rating="4.5" review="1597" />
           <Reviews image="/facebook_logo.png" rating="5" review="3791" />
           <Reviews image="/hajj_logo.png" rating="4.5" review="2487" />
@@ -139,14 +139,14 @@ export default function Hero() {
           />
         </div>
       </section>
-      <section className="bg-light relative">
+      <section className="bg-light relative container mx-auto px-6">
         <img
           src="/image2.png"
           alt=""
           className="lg:absolute right-8 xl:w-auto lg:w-1/2 lg:h-full h-80"
         />
 
-        <div className="container mx-auto px-2 lg:py-24 py-12">
+        <div className="container mx-auto px-6 lg:py-24 py-12">
           <h2 className="font-semibold lg:text-5xl text-3xl">
             What Do We Offer
           </h2>
@@ -193,7 +193,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto px-2 lg:pt-24 pt-12">
+      <section className="container mx-auto px-6 lg:pt-24 pt-12">
         <h4 className="text-2xl font-semibold text-center">
           Our Affiliations Flights & Hotels
         </h4>
